@@ -1,12 +1,10 @@
-# Netflix Clone ReactJS
+# Netflix Clone
 
-## Demo
-
-<img src = "netflixgif.gif"/>
+ReactJS
 
 ## Node Packages
 
-React-Youtube, React-indiana-drag-scroll, movie-trailer
+Axios, React-Youtube, React-indiana-drag-scroll, movie-trailer
 
 ## Installation
 
