@@ -47,9 +47,8 @@ function Row({ title, fetchUrl, isLargeRow }) {
             }
             key={movie.id}
             className={`row__poster ${isLargeRow && "row__posterLarge"}`} //use && if theres no else or : otherwise use ?
-            src={`${base_url}${
-              isLargeRow ? movie.poster_path : movie.backdrop_path
-            }`}
+            src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path
+              }`}
             alt={movie.name}
           />
         ))}
